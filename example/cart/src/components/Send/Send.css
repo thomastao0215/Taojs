@@ -1,0 +1,19 @@
+body {
+    margin-top:0;
+}
+li {
+    list-style-type: none;
+    
+}
+.Header {
+    width: 100%;
+    height: 45px;
+    background: red;
+
+}
+.title {
+    font-size: 18px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}

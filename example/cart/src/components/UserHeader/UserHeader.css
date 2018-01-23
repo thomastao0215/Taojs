@@ -1,0 +1,30 @@
+.UserHeader{
+    height: 141px;
+}
+.head-image {
+    
+}
+.avatar {
+    padding-top: 23px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.user-name {
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+
+}
+.user-name nick {
+        vertical-align: middle;
+}
+.u-arrow {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url('/Users/jiachen215/Desktop/download.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+    vertical-align: middle;
+}

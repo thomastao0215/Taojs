@@ -1,0 +1,60 @@
+.orders {
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  background: #D7D8D8;
+}
+.order {
+
+  display: block;
+  background: white;
+
+
+}
+
+.order .down-box .down-img img {
+  width: 100%;
+  height: 100%;
+}
+.order .up-box {
+  height: 1.7rem;
+  background-color: white;
+  border-bottom: solid 1px #f0f0f0;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+.order .up-box .up-left {
+  float: left;
+  padding-left: 5%;
+}
+
+.order .up-box .up-right {
+float: right;
+padding-right: 3%;
+}
+.down-box {
+  flex-basis: 100%;
+  display: flex;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+.down-img {
+  display: flex;
+  flex: 1;
+}
+.down-content {
+  display: flex;
+  flex: 2;
+
+}
+.down-others {
+  display: flex;
+  flex: 0.7;
+  text-align: left;
+  padding-top: 2rem;
+}
+.down-others .price {
+
+}
+.down-others .count {
+
+}

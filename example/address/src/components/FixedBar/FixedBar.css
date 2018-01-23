@@ -1,0 +1,10 @@
+.FixedBar {
+  height: 100px;
+  width: 100vw;
+  background-color: red;
+  bottom: 0;
+  position: absolute;
+  position: fixed;
+  left:0;
+  z-index:999;
+}

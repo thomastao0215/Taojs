@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.address-body .address-item {
+  display: flex;
+}
+.address-body .address-item .address-item-left  img {
+  width: 1.5rem;
+}
+.address-body .address-item .address-item-left {
+  flex:1;
+  background: white;
+  display: flex;
+  align-items: center; /*定义body的元素垂直居中*/
+  justify-content: center; /*定义body的里的元素水平居中*/
+}
+.address-body .address-item .address-item-middle {
+  flex: 6;
+}
+.address-body .address-item .address-item-right {
+  flex: 1.5;
+}
+
+.picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+}
+
+.test {
+  position: relative;
+  border-bottom: 0;
+}
+
+.test:after {
+  content: '';
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+  height: 1PX;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.demoTitle:before,
+.demoTitle:after {
+  border-bottom: none;
+}
+.am-list-item .am-input-control input {
+  height: 100%;
+  padding-top: 6px;
+  text-align: right;
+}
+
+.btn {
+
+  align-items: center;
+  width: 600px;
+  height: 42px;
+  padding: 10px 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 2px solid #666;
+  border-radius: 3px;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+}
+.submit {
+  width:100%;
+  background-color: rgb(141,36,40);
+  color: white;
+  font-size: 20px;
+}
+.confirm {
+  width:100%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.addnew {
+
+}

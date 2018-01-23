@@ -1,0 +1,32 @@
+body {
+    margin-top:0;
+}
+li {
+    list-style-type: none;
+
+}
+.header {
+    width: 100%;
+    background:white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+    display: flex;
+
+}
+
+.left {
+  flex: 0.5;
+  cursor: pointer;
+}
+.middle {
+
+  flex: 1;
+}
+.right {
+
+  flex: 0.5;
+}
+.return-button {
+  height: 1.5rem;
+}

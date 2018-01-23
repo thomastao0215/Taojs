@@ -1,0 +1,19 @@
+.Counter {
+  display: flex;
+}
+.decrease-button, .increase-button {
+  color: white;
+  font-size:14px;
+  border-radius: 50%;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  margin: 0.5rem;
+
+}
+.Counter .disabled {
+  background-color: gray;
+
+}
+.Counter input, button, submit { border:none; }

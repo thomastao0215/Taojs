@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color:black;
+}
+.Navbar {
+    background: white;
+}
+.m-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.m-orderstab {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #ddd;
+}
+.tr {
+    display: table-row;
+}
+.td {
+      display: table-cell;
+      text-align: center;
+
+}
+.tab-cur .link-span{
+  color: #d22046;
+  border-bottom: 2px solid #d22147;
+
+}
+.m-orderstab .tab .link-span{
+    padding: 0 5px;
+    display: inline-block;
+    height: 45px;
+    font-size: 15px;
+    position: relative;
+    bottom: -1px;
+}

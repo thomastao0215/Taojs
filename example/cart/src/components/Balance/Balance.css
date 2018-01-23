@@ -1,0 +1,21 @@
+.balance{
+  height: auto;
+  background: white;
+  margin-bottom: 100px;
+}
+.balance-cell {
+  height: 2rem;
+  border-bottom: solid 1px #f0f0f0;
+  display: flex;
+  padding-top: 0.5rem;
+}
+.balance-cell .cell-left {
+  flex: 1;
+  text-align: left;
+  padding-left: 5%;
+}
+.balance-cell .cell-right {
+  flex: 1;
+  text-align: right;
+  padding-right: 5%;
+}

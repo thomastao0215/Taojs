@@ -1,0 +1,46 @@
+body {
+    margin-top:0;
+
+}
+li {
+    list-style-type: none;
+
+}
+.address {
+    cursor: pointer;
+    background: gray;
+    color: white;
+}
+
+.address .up-box {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 13px;
+  height: 3rem;
+
+}
+.up-box .receiver {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-left: 1rem;
+
+}
+.up-box .telphone {
+  padding-right: 1rem;
+  float: right;
+
+}
+
+.low-box {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.rec-address {
+  margin-top: 1.8rem;
+  text-align: left;
+  text-align: left;
+  padding-left: 1rem;
+}

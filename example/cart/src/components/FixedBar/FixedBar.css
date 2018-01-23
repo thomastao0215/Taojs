@@ -1,0 +1,50 @@
+.FixedBar {
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  position: fixed;
+  left:0;
+  z-index:999;
+  display: flex;
+  align-items: center;
+  border-top: solid 1px #ececec;
+  background: white;
+}
+.fixed-left {
+  flex: 1;
+
+  height: 100%;
+}
+.fixed-middle {
+  flex: 2;
+  padding-right: 0.5rem;
+}
+.fixed-right {
+  flex:1;
+  height: 100%;
+
+}
+.checkout-button {
+  background: red;
+  height: 100%;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fixed-middle {
+  text-align: right;
+
+}
+.fixed-total {
+  font-size: 14px;
+}
+.fixed-total label {
+  color: red;
+  font-weight: bold;
+}
+.fixed-tax {
+  font-size: 12px;
+  color :gray;
+}

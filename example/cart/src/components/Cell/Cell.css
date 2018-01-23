@@ -1,0 +1,77 @@
+ls {
+  list-style: none;
+}
+.Cell {
+  width: 100%;
+  height: 100%;
+}
+
+.m-orderhd {
+  height: 36px;
+  line-height: 36px;
+}
+.m-orderhd .ordertype {
+    float: right;
+    margin-right: 15px;
+    color: #d21f46;
+}
+.m-orderhd .ordertime {
+  float: left;
+  color:#999;
+  margin-left: 15px;
+}
+
+.m-goodslist .goodsdetail {
+    display: block;
+    margin-left: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+.m-goodslist .goodsdetail .gimg a {
+  display: inline-block;
+}
+
+.m-goodslist .goodsdetail .gimg img {
+  margin: 10px 1px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid #ddd;
+}
+
+.m-orderbox .m-orderitem .m-goodslist .ginfo1 {
+      padding-right: 9px;
+}
+.f-fl {
+  float: left;
+}
+.m-goodslist .goodsdetail .ginfo1 {
+  width: 225px;
+}
+.m-goodslist .goodsdetail .ginfo2 {
+  padding: 8px 15px 7px 0;
+  text-align: right;
+}
+
+.m-goodslist .goodsdetail .ginfo1 .gtitle {
+  margin-bottom: 8px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.m-goodslist .goodsdetail .ginfo1 .gsku {
+  color:#999;
+}
+
+.m-goodslist .goodsdetail .ginfo2 .gprinum {
+  margin-bottom: 8px;
+}
+
+.m-goodslist .goodsdetail .ginfo2 .gprinum .gprice {
+  line-height: 18px;
+  font-weight: bold;
+}
+.m-goodslist .goodsdetail .ginfo2 .gprinum .gnum {
+    line-height: 18px;
+    color: #656565;
+}
